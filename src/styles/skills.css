@@ -1,0 +1,70 @@
+.skill-item {
+  display: flex;
+  align-items: center;
+  position: relative;
+  gap: 1rem;
+}
+
+.skill-text strong {
+    font-size: 0.80rem;
+    font-weight: 700;
+}
+
+.skill-ring svg {
+  transform: rotate(-90deg);
+}
+
+.skill-ring-bg {
+  fill: none;
+  stroke: rgba(196, 107, 114, 0.18);
+  stroke-width: 7;
+}
+
+.skill-ring-progress {
+  fill: none;
+  stroke: #b65a64;
+  stroke-width: 7;
+  stroke-linecap: round;
+
+  stroke-dashoffset: 113; /* valor inicial = vacío */
+  transition: stroke-dashoffset 1.2s ease-out;
+}
+
+.skill-ring-wrapper {
+  position: relative;
+  display: grid;
+  place-items: center;
+}
+
+.ring-label {
+  position: absolute;
+  font-size: 0.4rem;
+  font-weight: 600;
+  color: #6f3037;
+  line-height: 1;
+}
+
+
+.skill-text small {
+  display: block;
+  font-size: 0.70rem;
+  color: #7d6367;
+  line-height: 1.2;
+}
+
+.skill-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem 2rem;
+  margin-right: 20px;
+}
+
+.skill-item:nth-child(1n)::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -12px;
+  width: 100%;
+  height: 1px;
+  background: rgba(0, 0, 0, 0.15);
+}

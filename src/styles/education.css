@@ -1,0 +1,52 @@
+.degree {
+    font-size: 20px;
+    color: #6f3037;
+    margin-bottom: 0;
+}
+
+.education-desc {
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 0;
+    color: #333333;
+}
+
+.school {
+  color: #a87b7d;
+  font-weight: 600;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.divider {
+    border-bottom: 1px solid #ccc;
+    margin: 1rem;
+    margin-left: 0;
+}
+
+.studies-filters {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+.studies-filters button {
+  all: unset;
+  cursor: pointer;
+  padding: 0.3rem 0.5rem;
+  border-radius: 20px;
+  font-size: 0.5rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border: 1px solid #6f3037;
+  color: #6f3037;
+}
+
+.studies-filters button.active {
+  background-color: #6f3037;
+  color: #fff;
+}

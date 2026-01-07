@@ -1,0 +1,64 @@
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin-top: 0.5rem;
+  gap: 1rem;
+}
+
+.contact-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.3rem;
+  font-size: 0.7rem;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+  color: #333;
+}
+
+.contact-info li {
+  position: relative;
+  padding-left: 1.5rem;
+  font-size: 0.85rem;
+}
+
+.contact-info li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 45%;
+  transform: translateY(-50%);
+
+  width: 1rem;
+  height: 1rem;
+
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  opacity: 0.9;
+}
+
+/* Address */
+.contact-info li.address::before {
+  background-image: url('/icons/home.png');
+}
+
+/* Birthday */
+.contact-info li.birthday::before {
+  background-image: url('/icons/calendar.png');
+}
+
+/* Phone */
+.contact-info li.phone::before {
+  background-image: url('/icons/cell-phone.png');
+}
+
+/* Email */
+.contact-info li.email::before {
+  background-image: url('/icons/email.png');
+}
+
+/* Linkedin */
+.contact-info li.linkedin::before {
+  background-image: url('/icons/linkedin.png');
+}

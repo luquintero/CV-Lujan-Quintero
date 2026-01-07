@@ -1,0 +1,94 @@
+
+
+
+/* Contact & links */
+.contact p,
+.languages p,
+.studies p {
+  font-size: 0.85rem;
+  margin: 0.2rem 0;
+  letter-spacing: 0.2px;
+}
+
+.contact a {
+  text-decoration: none;
+  color: #333333;
+}
+
+.contact a:hover {
+  color: #6f3037;
+  font-weight: bold;
+}
+
+/* Languages */
+.language-item {
+  margin-bottom: 0.2rem;
+}   
+
+.language-bar-row {
+  display: flex;
+  align-items: baseline;
+  gap: 1.5rem;
+}
+
+.language-name {
+  padding-bottom: 0.5rem;
+}
+
+.language-level {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #9f5a5f;
+  white-space: nowrap;
+}
+
+
+/* Progress bar */
+.progress-bar-bg {
+  width: 50%;
+  height: 12px;
+  background: #eee;
+  border-radius: 12px;
+  margin-bottom: 1.5rem;
+  overflow: hidden;
+}
+
+.progress-bar-fill {
+  height: 100%;
+  background: #6f3037;
+  border-radius: 12px 0 0 12px;
+  transition: width 1s ease;
+}
+
+/* Download button */
+.download-cv {
+  margin-top: 1.2rem;
+  width: 100%;
+  padding: 0.3rem;
+  border: 1px solid #6f3037;
+  background-color: transparent;
+  color: #6f3037;
+  font-weight: 600;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: all 0.25s ease;
+}
+
+.download-cv:hover {
+  background-color: #6f3037;
+  color: #fff;
+}
+
+.download-cv:focus {
+  outline: 2px solid rgba(111, 48, 55, 0.4);
+  border-radius: 6px;
+}
+
+.download-cv:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(111, 48, 55, 0.4);
+  border-radius: 6px;
+  outline-offset: 2px;
+}

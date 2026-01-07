@@ -1,0 +1,234 @@
+/* Section headers */
+article h3 {
+  font-weight: 600;
+  letter-spacing: 3px;
+  border-bottom: 2px solid #6f3037;
+  padding-bottom: 0.4rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+article {
+  padding-left: 0.5rem;
+}
+
+/* Studies */
+.studies .study-item {
+  margin-bottom: 1rem;
+  font-size: 0.85rem;
+  color: #5a5a5a;
+}
+
+.study-place {
+  color: #a87b7d;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+/* Work experience */
+
+.job {
+    padding: 0;
+}
+
+.work .job h4 {
+  font-weight: 700;
+  font-size: 1rem;
+  margin: 0 0 0.3rem 0;
+  color: #6f3037;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.work .divider {
+  color: #b65a64;
+  font-weight: 900;
+}
+
+.work .period {
+  font-style: italic;
+  font-weight: 400;
+  color: #7d6367;
+  font-size: 0.85rem;
+  margin-left: auto;
+}
+
+.work .job p {
+  margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.3;
+  letter-spacing: 0.2px;
+  color: #333;
+}
+
+/* Work dropdown */
+
+.job-header {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  cursor: pointer;
+  width: 100%;
+  transition: color 0.3s ease, background-color 0.3s ease;
+  padding: 0.4rem;
+  padding-right: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background: none;
+  border: none;
+}
+
+.job-header:focus {
+  outline: 2px solid rgba(111, 48, 55, 0.4);
+  border-radius: 6px;
+}
+
+.job-header:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(111, 48, 55, 0.4);
+  border-radius: 6px;
+  outline-offset: 2px;
+}
+
+.job-header:hover {
+  background-color: rgba(196, 107, 114, 0.18);
+  border-radius: 6px;
+}
+
+.job-header.open {
+  background-color: rgba(196, 107, 114, 0.18);
+  border-radius: 6px;
+}
+
+.chevron {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #6f3037;
+  line-height: 1;
+}
+
+.job-title-row {
+  display: inline-flex;
+  align-items: center;
+  line-height: 2;
+  margin: 0;
+  gap: 1rem;
+}
+
+.job-role {
+  font-weight: 700;
+  color: #6f3037;
+}
+
+.divider-job {
+  color: #b65a64;
+  font-weight: 700;
+}
+
+.job-company {
+  font-weight: 600;
+  color: #6f3037;
+  font-style: italic;
+}
+
+.period {
+  font-size: 0.85rem;
+  margin-left: 0.6rem;
+  white-space: nowrap;
+}
+
+.job-content {
+  margin-top: 0.1rem;
+  padding-left: 0.2rem;
+  overflow: hidden;
+  transition: max-height 0.4s ease;
+}
+
+.job-content.open {
+  max-height: 400px; 
+  opacity: 1;
+  background-color: #f4f4f4;
+  padding: 0.75rem 2rem;
+  border-radius: 6px;
+}
+
+
+.job-content-inner {
+  padding-bottom: 0.2rem;
+}
+
+.job-content-inner p {
+  margin: 0;
+  padding-left: 0.8rem;
+}
+
+.timeline-period {
+  padding-left: 1rem;
+}
+
+.divider-3 {
+  box-shadow: 0 0 0 0.2px rgba(111, 48, 55, 0.4);
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.timeline {
+  position: relative;
+}
+
+.timeline-item {
+  position: relative;
+  padding-bottom: 1.2rem;
+}
+
+.timeline-item:last-child {
+  padding-bottom: 0;
+}
+
+.timeline-node {
+  position: absolute;
+  left: 0;
+  top: 0.45rem;
+  width: 12px;
+  height: 12px;
+  background-color: #f9c1c2;
+  border: 2px solid #6f3037;
+  border-radius: 50%;
+}
+
+.timeline-content h5 {
+  margin: 0;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #6f3037;
+  padding-left: 1rem;
+}
+
+.timeline-period {
+  display: block;
+  font-size: 0.75rem;
+  color: #8a6a6d;
+  margin-bottom: 0.3rem;
+}
+
+.timeline-content p {
+  margin: 0;
+  font-size: 0.85rem;
+  line-height: 1.3;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 6px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background-color: #6f3037;
+}
