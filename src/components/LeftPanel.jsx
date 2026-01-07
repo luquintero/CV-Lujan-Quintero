@@ -6,8 +6,8 @@ export default function LeftPanel({ content, lang }) {
   const handleDownload = () => {
     const file =
       lang === "es"
-        ? "/cv/CV_Lujan_Quintero_ES.pdf"
-        : "/cv/CV_Lujan_Quintero_EN.pdf";
+        ? "/pdf/CV_Lujan_Quintero_ES.pdf"
+        : "/pdf/CV_Lujan_Quintero_EN.pdf";
 
     const link = document.createElement("a");
     link.href = file;
