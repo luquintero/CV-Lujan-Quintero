@@ -115,7 +115,7 @@ main {
   }
 
   .left-panel-toggle.open {
-    left: 55%;
+    display: none;
   }
 }
 
