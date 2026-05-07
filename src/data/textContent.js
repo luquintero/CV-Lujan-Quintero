@@ -5,7 +5,7 @@ const textContent = {
     profile: {
       title: "PROFILE",
       content:
-        "I'm 29 years old; I’m enthusiastic, optimistic and hardworking. I look forward to new challenges in order to continue growing personally and professionally. Personal interests:",
+        "I'm 30 years old; I’m enthusiastic, optimistic and hardworking. I look forward to new challenges in order to continue growing personally and professionally. Personal interests:",
       interests: [
         { key: 'travel', label: 'Travel' },
         { key: 'languages', label: 'Languages' },
@@ -271,7 +271,7 @@ const textContent = {
     profile: {
       title: "PERFIL",
       content:
-        "Tengo 29 años; soy entusiasta, optimista y trabajadora. Busco nuevos desafíos para continuar creciendo personal y profesionalmente. Intereses personales:",
+        "Tengo 30 años; soy entusiasta, optimista y trabajadora. Busco nuevos desafíos para continuar creciendo personal y profesionalmente. Intereses personales:",
       interests: [
         { key: 'travel', label: 'Viajar' },
         { key: 'languages', label: 'Idiomas' },

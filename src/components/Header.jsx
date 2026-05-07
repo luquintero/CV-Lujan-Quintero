@@ -1,4 +1,5 @@
 import LanguageToggle from './LanguageToggle';
+import profileImage from '../assets/profile.png'
 
 export default function Header({
   title,
@@ -13,11 +14,7 @@ export default function Header({
     <header className="header">
       <LanguageToggle currentLang={lang} onToggle={setLang} />
 
-      <img
-        src="/profile.png"
-        alt={title}
-        className="profile-picture"
-      />
+      <img src={profileImage} alt={title} className="profile-picture" />
 
       <div className="header-text">
         <small>{subtitle.toUpperCase()}</small>
